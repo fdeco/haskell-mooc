@@ -1,0 +1,17 @@
+-- Haskell Playground 1.0
+Leaf
+
+let n = Node 3 Leaf Leaf
+
+treeDepth Leaf
+
+isSortedTree (Node 2 (Node 1 Leaf Leaf) (Node 3 Leaf Leaf)) minBound maxBound
+
+
+addNewMax Leaf
+
+insertTreeVal (Node 5 (Node 2 Leaf Leaf) (Node 6 Leaf Leaf)) 3
+insertTreeVal (Node 5 (Node 2 Leaf Leaf) (Node 6 Leaf Leaf)) 10
+
+
+treeToList (Node 5 (Node 2 Leaf Leaf) (Node 6 Leaf Leaf))

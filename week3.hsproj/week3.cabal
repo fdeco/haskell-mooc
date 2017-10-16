@@ -1,0 +1,19 @@
+name: week3
+version: 1.0
+cabal-version: 1.22
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+category: Haskell MOOC
+author: Stefan Lapers
+x-ghc-framework-version: 8.0.2-8.9-3
+x-last-ide-version: HfM1.5.1
+Executable datatypes
+  main-is: Datatypes.hs
+  buildable: True
+  build-depends:
+      base -any
+  default-language: Haskell2010
+  other-modules:
+      Lists
+      Compositions
